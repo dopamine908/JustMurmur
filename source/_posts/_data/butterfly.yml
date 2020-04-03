@@ -6,7 +6,7 @@
 #   xxx || 連結 || icon
 menu:
   Home: / || fa fa-home
-#  Archives: /archives/ || fa fa-archive
+  Archives: /archives/ || fa fa-archive
   Tags: /tags/ || fa fa-tags
   Categories: /categories/ || fa fa-folder-open
 #  Link: /link/ || fa fa-link
@@ -111,7 +111,7 @@ avatar:
   effect: true # 頭像會一直轉圈
 
 # the banner image of index
-index_img: /img/index.jpg
+index_img: /img/banner.jpg
 
 # if the banner of page not setting,it will show the top_img
 default_top_img: /img/index.jpg
@@ -202,7 +202,7 @@ addThis:
   pubid:
 
 sharejs:
-  enable: true
+  enable: false
   sites: facebook,twitter,wechat,weibo,qq
 
 # https://www.addtoany.com/
@@ -368,20 +368,20 @@ photofigcaption: false
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00c4b6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00c4b6"
-#   link_color: "#99a9bf"
-#   meta_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   code_foreground: "#F47466"
-#   code_background: "rgba(27, 31, 35, .05)"
-#   toc_color: "#00c4b6"
-#   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
+theme_color:
+ enable: true
+ main: "#000"
+ paginator: "#00c4b6"
+ button_hover: "#FF7242"
+ text_selection: "#00c4b6"
+ link_color: "#99a9bf"
+ meta_color: "#858585"
+ hr_color: "#A4D8FA"
+ code_foreground: "#F47466"
+ code_background: "rgba(27, 31, 35, .05)"
+ toc_color: "#00c4b6"
+ blockquote_padding_color: "#49b1f5"
+ blockquote_background_color: "#49b1f5"
 
 # 主頁設置
 # 默認top_img全屏，site_info在中間
@@ -419,7 +419,7 @@ canvas_ribbon:
 
 # 動態彩帶
 canvas_ribbon_piao:
-  enable: false
+  enable: true
   mobile: false # false 手機端不顯示 true 手機端顯示
 
 # canvas_nest
@@ -463,7 +463,7 @@ display_mode: light
 
 # 美化頁面顯示
 beautify:
-  enable: false
+  enable: true
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
@@ -503,9 +503,7 @@ subtitle:
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 這是第一句話
-    - 這是第二句話
-    - 這是第三句話
+    - Laziness &#44; Impatience and Hubris.
 
 # fontawesome圖標
 # 默認使用的是 fontawesome v4版本的圖標
@@ -520,12 +518,12 @@ aside:
   mobile: true # 手機頁面（ 顯示寬度 < 768px ）是否顯示aside內容
   position: right # left or right
   card_author: true
-  card_announcement: true
+  card_announcement: false
   card_recent_post: true
   card_categories: true
   card_tags: true
   card_archives: true
-  card_webinfo: true
+  card_webinfo: false
 
 # 網站公告
 announcement:
@@ -549,11 +547,11 @@ runtimeshow:
 #----------------------------------------------
 # 簡繁轉換
 translate:
-  enable: true
+  enable: false
   # 默認按鈕顯示文字
   default: 繁
   #網站默認語言，1: 繁體中文, 2: 簡體中文
-  defaultEncoding: 2
+  defaultEncoding: 1
   #延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0
   translateDelay: 0
   #博客網址
@@ -598,8 +596,8 @@ fancybox:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
-  position: bottom-left
+  enable: true
+  position: bottom-right
   bg_light: "#49b1f5" #light mode時彈窗背景
   bg_dark: "#2d3035" #dark mode時彈窗背景
 
