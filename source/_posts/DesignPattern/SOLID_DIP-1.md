@@ -4,7 +4,7 @@ date: 2020-08-28 20:14:52
 tags:
 - SOLID
 categories: 
-- 讀書會報告
+- 日常開發筆記
 cover: https://picsum.photos/id/325/800/600
 ---
 
