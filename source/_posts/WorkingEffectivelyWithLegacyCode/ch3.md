@@ -2,7 +2,6 @@
 title: Working Effectively with Legacy Code - Ch3 - 感測和分離
 date: 2020-11-25 20:56:15
 tags:
-- SQL
 - 讀書會報告
 - Legacy Code
 - Test

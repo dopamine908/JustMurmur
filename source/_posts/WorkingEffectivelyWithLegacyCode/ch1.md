@@ -2,7 +2,6 @@
 title: Working Effectively with Legacy Code - Ch1 - 修改軟體
 date: 2020-11-10 12:05:44
 tags:
-- SQL
 - 讀書會報告
 - Legacy Code
 - Test

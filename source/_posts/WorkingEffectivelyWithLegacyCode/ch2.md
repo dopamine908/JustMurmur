@@ -2,7 +2,6 @@
 title: Working Effectively with Legacy Code - Ch2 - 帶著回饋工作
 date: 2020-11-19 16:35:39
 tags:
-- SQL
 - 讀書會報告
 - Legacy Code
 - Test
